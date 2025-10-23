@@ -1,10 +1,10 @@
 package OOP_P1_DAY_1;
 
-import java.util.ArrayList;                       // using arraylist
+import java.util.ArrayList; // using arraylist
 import java.util.Scanner;
 
 /*
- * Project Name : Simple Login Banking Apllication
+ * Project Name  : Simple Banking Apllication
  * Description   :  
  * 
  * The Simple baking apllication providing following :
@@ -23,14 +23,16 @@ public class Project {
     int accountnum;
     String password; // simple password (for demo)
     double balance;
-//constructor
+
+    // constructor
     Project(String name, int accountnum, String password, double balance) {
         this.name = name;
         this.accountnum = accountnum;
         this.password = password;
         this.balance = balance;
     }
-//method
+
+    // method
     void deposit(double amount) {
         if (amount <= 0) {
             System.out.println(" Invalid deposit amount.");
@@ -40,7 +42,8 @@ public class Project {
             System.out.println(" New Balance: " + balance);
         }
     }
-//method
+
+    // method
     void withdraw(double amount) {
         if (amount <= 0) {
             System.out.println(" Invalid withdraw amount.");
@@ -52,14 +55,15 @@ public class Project {
             System.out.println(" Remaining Balance: " + balance);
         }
     }
-//method
+
+    // method
     void display() {
         System.out.println("--------------------**--Welcome Bank Of India--**--------------------");
         System.out.println("Customer Name    : " + name);
         System.out.println("Account Number   : " + accountnum);
         System.out.println("Account Balance  : " + balance);
     }
-    
+
     // Find account by account number
     public static Project findAccount(ArrayList<Project> accounts, int accNum) {
         for (Project acc : accounts) {
@@ -69,23 +73,22 @@ public class Project {
         }
         return null;
     }
-    
+
     // Main program with pre-stored users and login
     public static void main(String[] args) {
-        
+
         Scanner sc = new Scanner(System.in);
-        
+
         // Pre-populate some accounts (username = accountnum, password = password)
         ArrayList<Project> accounts = new ArrayList<>();
         accounts.add(new Project("Nihal More", 101, "pass101", 25000.0));
         accounts.add(new Project("Asha Patil", 102, "asha102", 15000.0));
         accounts.add(new Project("Rahul Kumar", 103, "rahul103", 5000.0));
-        
+
         System.out.println("=====  >>> Welcome to Bank of India <<< =====");
-        
-        mainLoop:
-        while (true) {
-            
+
+        mainLoop: while (true) {
+
             System.out.println("\n1. Login");
             System.out.println("2. Exit");
             System.out.print("Choose option: ");
@@ -164,7 +167,7 @@ public class Project {
                                 System.out.println(" Invalid choice, please try again!");
                         }
 
-                    } while (choice != 5);                            
+                    } while (choice != 5);
 
                     break;
 

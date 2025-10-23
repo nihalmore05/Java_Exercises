@@ -56,13 +56,20 @@ public class BankAccounnt {
     public static void main(String[] args) {
         
         BankAccounnt b1 = new BankAccounnt("Nihal More", 101, 25000);       // creating object
-
+        BankAccounnt b2 = new BankAccounnt("Raj Kadam", 102, 11500);
 
         b1.displya();
         System.out.println("----------------------------------------------------------------------");
         b1.deposit(5000);
         System.out.println("----------------------------------------------------------------------");
         b1.withdraw(4000);
+        System.out.println("----------------------------------------------------------------------");
+
+        b2.displya();
+        System.out.println("----------------------------------------------------------------------");
+        b2.deposit(1000);
+        System.out.println("----------------------------------------------------------------------");
+        b2.withdraw(500);
         System.out.println("----------------------------------------------------------------------");
         System.out.println("                         Thank You                                    ");
         System.out.println();
