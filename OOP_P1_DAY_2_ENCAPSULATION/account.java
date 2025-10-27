@@ -2,7 +2,7 @@ package OOP_P1_DAY_2_ENCAPSULATION;
 
 //7. Create an `Account` class with private balance and secure deposit/withdraw methods.
 
-public class account {
+ class Account {
     
     public String name;
     public long accountnum;
@@ -35,7 +35,7 @@ public class account {
     }
     
       public static void main(String[] args) {
-        account ac = new account();
+        Account ac = new Account();
 
         ac.deposit(5000);
         ac.withdraw(1000);
