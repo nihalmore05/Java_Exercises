@@ -1,8 +1,8 @@
 package OOP_P1_DAY_4_INHERITANCE;
 
-//Q.3) Use `super` to call parent constructor.
+//Q.3) Use `super` to call parent constructor.....
 
-//Q.4) Use `super` to call parent class method.
+//Q.4) Use `super` to call parent class method....
 
 
 // parent class
