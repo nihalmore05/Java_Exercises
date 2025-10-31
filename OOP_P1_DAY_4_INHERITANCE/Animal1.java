@@ -15,7 +15,7 @@ class Animal1 {
     public static void main(String[] args) {
         Dog a = new Dog();
 
-        a.eat();
+        a.eat();                     // calling overridng method
         a.sound();
 
     }
@@ -28,7 +28,7 @@ class Dog extends Animal1 {
     }
 // sound method
     void sound() {
-        System.out.println("dog sound 'Woof'  ");
+        System.out.println("dog sound 'Woof'  ");    // method Overriding
     }
 
     
