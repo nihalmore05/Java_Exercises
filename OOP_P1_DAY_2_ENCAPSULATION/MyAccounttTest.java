@@ -1,6 +1,6 @@
 package OOP_P1_DAY_2_ENCAPSULATION;
 //9. Try to access private data directly and fix it with getters.
-  class Account {
+  class Account{
     
     private double balance = 6000;
      
