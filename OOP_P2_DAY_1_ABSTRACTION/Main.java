@@ -25,7 +25,7 @@ class Square extends Shape{
     }
 
     void area(){
-        System.out.println("Area Of Square: " + (side * side));
+        System.out.println("Area Of Square : " + (side * side));
     }
 }
 
@@ -35,7 +35,10 @@ public class Main{
         Shape square = new Square(6);
 
 
+        System.out.println("-----------------------------");
         circle.area();
+        System.out.println("-----------------------------");
         square.area();
+        System.out.println("-----------------------------");
     }
 }
