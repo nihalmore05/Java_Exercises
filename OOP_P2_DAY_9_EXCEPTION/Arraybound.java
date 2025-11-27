@@ -1,5 +1,5 @@
 package OOP_P2_DAY_9_EXCEPTION;
-
+//2. Handle `ArrayIndexOutOfBoundsException`.
 public class Arraybound {
 public static void main(String[] args) {
     
