@@ -9,7 +9,7 @@ public class Mulcatchbox {
     int a = 100, b = 0;
     int c = a/b;                   // Arithmetic Exception occuring here becous divide by zero   
     System.out.println(c);                    
-                                       // whe exception occuring the try block skip other code
+                                   // whe exception occuring the try block skip other code
     String s = null;
     System.out.println(s.length());
 }
