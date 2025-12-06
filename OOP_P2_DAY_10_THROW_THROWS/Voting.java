@@ -1,5 +1,6 @@
 package OOP_P2_DAY_10_THROW_THROWS;
 
+//1. Throw your own exception if user age < 18.
 import java.util.Scanner;
 
 class Election extends RuntimeException{
