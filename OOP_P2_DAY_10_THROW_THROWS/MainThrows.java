@@ -22,3 +22,4 @@ public class MainThrows {
         System.out.println("Program Endend normal ..........");
     }
 }
+ 
