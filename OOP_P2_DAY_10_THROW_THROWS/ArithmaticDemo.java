@@ -11,7 +11,7 @@ public class ArithmaticDemo {
         int num = sc.nextInt();
 
         if(num == 0){
-            throw new ArithmeticException("Number cannot be zero!");
+            throw new ArithmeticException("Number cannot be zero!");       
         }
        System.out.println("10 divide by " + num + " = " + (10 / num));
     }
