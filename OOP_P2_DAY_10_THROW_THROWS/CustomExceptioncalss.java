@@ -1,6 +1,6 @@
 package OOP_P2_DAY_10_THROW_THROWS;
 
-//5. Create custom exception   class.
+//5. Create custom exception class.
 
 class InvalidAgeException extends Exception {
     InvalidAgeException(String msg) {
