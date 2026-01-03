@@ -23,7 +23,7 @@ public class BankAccounnt {
           }else{
             balance += amount;                                    // here addition assignment operator used ("balance = balance + amount"  to avoid this)
             System.out.println("Deposit Amount   : " + amount);
-            System.out.println("New Balance      : " + balance);
+            System.out.println("New Balance      : " + balance);    
           }
       
        
